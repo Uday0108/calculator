@@ -1,0 +1,97 @@
+    body{ 
+        scroll-behavior: smooth;
+        background-color: rgb(231, 231, 231);
+        height: 100vh;
+        overflow: hidden;
+        margin: 0;
+        transition: all 200ms ease;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .calculator{
+        box-shadow: 20px 20px 20px rgb(105, 105, 105);
+        border-radius: 20px;
+        align-items: center;
+        max-width: 370px;
+        max-height: 650px;
+        font-family: Arial, sans-serif;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .keey{
+        display: grid;
+        margin-left: 15px;
+        grid-template-columns: repeat(4,1fr);
+    }
+    
+    .textOutput2{
+        margin-left: 10px;
+        max-height: 50px;
+        border-radius: 20px ;
+        max-width: 350px;
+        overflow: scroll;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        background-color: rgb(87, 87, 87);
+        border: none;
+        margin-bottom: 10px;
+    }
+
+    .text_output{
+        border-radius: 20px 20px 8px 8px ;
+        max-width: 370px;
+        overflow: scroll;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 60px;
+        font-weight: bold;
+        height: 120px;
+        background-color: rgb(87, 87, 87);
+        border: none;
+        margin-bottom: 10px;
+    }
+    button{
+        border: none;
+        color: white;
+        height: 76px;
+        width: 76px;
+        margin-bottom: 10px;
+        background-color:rgb(80, 80, 80);
+        border-radius: 50px;
+        font-weight: bold;
+        cursor: pointer;
+        font-size: 45px;
+    }
+
+    button:hover{
+        background-color: rgb(175, 175, 175);
+    }
+
+    .cleardiv{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .clear{
+        border: none;
+        border-radius: 10px;
+        width: 350px;
+        background-color: rgb(255, 166, 0);
+    }
+
+    .clear:hover{
+        background-color: rgb(201, 83, 83);
+    }
+
+    .textOutput2{
+        transition: all 300ms ease;
+    } 
+    button{
+      transition: all 400ms ease;  
+    }

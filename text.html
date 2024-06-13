@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="calcimage.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> calculator </title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+       <div class="calculator">
+                <input class="text_output" id="display" value="" readonly >            
+                <input class="textOutput2" id="display2" value="" readonly >
+
+                <div class="keey" id="keys">
+            <button onclick="appendtodisplay('+')">+</button>
+            <button onclick="appendtodisplay('1')">1</button>
+            <button onclick="appendtodisplay('2')">2</button>
+            <button onclick="appendtodisplay('3')">3</button>
+            <button onclick="appendtodisplay('-')">-</button>
+            <button onclick="appendtodisplay('4')">4</button>
+            <button onclick="appendtodisplay('5')">5</button>
+            <button onclick="appendtodisplay('6')">6</button>
+            <button onclick="appendtodisplay('*')">*</button>
+            <button onclick="appendtodisplay('7')">7</button>
+            <button onclick="appendtodisplay('8')">8</button>
+            <button onclick="appendtodisplay('9')">9</button>
+            <button onclick="appendtodisplay('/')">/</button>
+            <button onclick="appendtodisplay('0')">0</button>
+            <button onclick="appendtodisplay('.')">.</button>
+            <button onclick="calculate()">=</button>
+            </div>
+            <div class="cleardiv">
+            <button class="clear"  onclick="clearTextArea()" >C</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="calc_script.js"></script>
+</html>
